@@ -39,11 +39,10 @@ def sum_array(array)
 end 
 
 def add_s(array) 
-  array.each_with_index.collect do |element, index| 
-    if index < 2 
-      element + "s" 
-    elsif index > 2 
-      element + "s"
+  array.collect do |element| 
+    if element[2] == element[2]
+      element 
+    els
     end
 end 
 
